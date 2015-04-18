@@ -1,0 +1,33 @@
+{
+  "name": "ghost-heroku-kit",
+  "version": "1.0.0",
+  "description": "An example of using Ghost on Heroku with minimal installation and upgrade effort.",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joeyespo/ghost-heroku-kit"
+  },
+  "keywords": [
+    "web",
+    "blog",
+    "ghost",
+    "heroku"
+  ],
+  "author": "Joe Esposito <joe@joeyespo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joeyespo/ghost-heroku-kit/issues"
+  },
+  "homepage": "https://github.com/joeyespo/ghost-heroku-kit",
+  "dependencies": {
+    "bluebird": "^2.9.24",
+    "ghost": "^0.6.0",
+    "ghost-cloudinary-store": "^1.0.2",
+    "ghost-s3-storage": "^0.2.0",
+    "node-env-file": "^0.1.7"
+  }
+}

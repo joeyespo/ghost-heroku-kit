@@ -1,0 +1,37 @@
+{
+  "name": "ghost-heroku-kit",
+  "description": "An example of using Ghost on Heroku with minimal installation and upgrade effort.",
+  "keywords": [
+    "web",
+    "blog",
+    "ghost",
+    "heroku"
+  ],
+  "website": "http://ghost-heroku-kit.herokuapp.com",
+  "repository": "https://github.com/joeyespo/ghost-heroku-kit",
+  "logo": "https://raw.githubusercontent.com/joeyespo/ghost-heroku-kit/master/content/images/logo.png",
+  "success_url": "/ghost",
+  "env": {
+    "SITE_URL": {
+      "description": "The URL of the public site. This is required for Ghost for links from the admin panel to your blog, and external links like those in emails and RSS feeds, to be correct.",
+      "value": "https://YOURAPPNAME.herokuapp.com"
+    },
+    "S3_BUCKET": {
+      "description": "Your Amazon S3 access key ID. (Leave blank to use the default free cloud storage with automatic provisioning.)",
+      "required": false
+    },
+    "S3_ACCESS_KEY_ID": {
+      "description": "Your Amazon S3 access key ID. Used only when S3_BUCKET is set.",
+      "required": false
+    },
+    "S3_SECRET_ACCESS_KEY": {
+      "description": "Your Amazon S3 secret access key. Used only when S3_BUCKET is set.",
+      "required": false
+    }
+  },
+  "addons": [
+    "heroku-postgresql",
+    "mandrill",
+    "cloudinary"
+  ]
+}
