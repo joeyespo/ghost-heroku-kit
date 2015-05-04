@@ -7,8 +7,8 @@ Ghost Heroku Kit
 Run **Ghost on Heroku** with as **little effort as possible**.
 
 
-Usage
------
+Running locally
+---------------
 
 1. Clone or download
 
