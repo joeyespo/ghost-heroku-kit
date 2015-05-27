@@ -24,10 +24,10 @@
   },
   "homepage": "https://github.com/joeyespo/ghost-heroku-kit",
   "dependencies": {
-    "bluebird": "^2.9.24",
-    "ghost": "^0.6.0",
+    "bluebird": "^2.9.26",
+    "ghost": "^0.6.4",
     "ghost-cloudinary-store": "^1.0.2",
-    "ghost-s3-storage": "^0.2.0",
+    "ghost-s3-storage": "^0.2.1",
     "node-env-file": "^0.1.7"
   }
 }
