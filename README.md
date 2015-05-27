@@ -97,19 +97,19 @@ For convenience, you can create an `.env` file to configure locally without
 accidentally committing anything.
 
 
-A few quirks
+Known Issues
 ------------
 
-- Using a database other than Postgres will require a change to `config.js`
-  until [knex accepts general connection strings][connection-string].
+Using a database other than Postgres will require a change to `config.js`
+until [knex accepts general connection strings][connection-string].
 
-- Ghost currently requires you to set the public `url`. Because of this, you
-  can't use the Heroku button or [PR apps][] without explicitly setting the
-  `SITE_URL` environment variable.
+Ghost currently requires you to set the public `url`. Because of this,
+you can't use the Heroku button or [PR apps][] without explicitly setting
+the `SITE_URL` environment variable.
 
-- Heroku doesn't take `app.json` into account when using `heroku create`.
-  Once it does, you'll be able to use that instead of deciding between
-  the Deploy button and configuring your app manually.
+Heroku doesn't take `app.json` into account when using `heroku create`.
+Once it does, you'll be able to use that instead of deciding between the
+Deploy button and configuring your app manually.
 
 
 Support Ghost!
